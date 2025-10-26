@@ -17,6 +17,7 @@ jobs:
       changed: ${{ steps.changes.outputs.changed }}
 
     steps:
+      - name: do checkout stuff :P
       - uses: actions/checkout@v4
       - with:
         fetch-depth: 0
